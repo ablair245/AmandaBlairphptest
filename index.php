@@ -30,7 +30,7 @@
     <div class="row">
       <div class="col">
         <div class="card card-body bg-light mt-5">
-          <h2 small class="text-muted">Dashboard<?php echo $_SESSION['email']; ?></h2>
+          <h2 small class="text-muted">Welcome to the Dashboard</h2>
           <p>Welcome to the dashboard <?php echo $_SESSION['name']; ?></p>
           <p><a href="logout.php" class="btn btn-danger">Logout</a></p>
         </div>
